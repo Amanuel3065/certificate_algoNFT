@@ -11,7 +11,9 @@ cd sandbox
 ./sandbox up testnet
 
 ### py-algorand-sdk installation
-* Algorand provides an SDK for Python which is available as a pip package. To install the Python SDK, open a terminal and run the following command. Using this SDK it is possible to interact with assets and transactions programatically.
+* Algorand provides an SDK for Python which is available as a pip package. To install the Python SDK, open a terminal and run the following command. Using this SDK it is possible to interact with assets and transactions programatically. 
+
+* The screenshots folder contains some snaps of transactions and assets created to explore and test this python dev. kit using notebooks.
 
 pip3 install py-algorand-sdk
 
