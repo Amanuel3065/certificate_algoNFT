@@ -5,7 +5,7 @@ import { Button, Container } from 'reactstrap';
 
 // core components
 
-function Header() {
+function PageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -37,7 +37,7 @@ function Header() {
         <Container>
           <div className="motto text-center">
             <h1>Ten Academy</h1>
-            <h3>Learn and get your signed certificate</h3>
+            <h3>Get certified with us</h3>
             <br />
             <Button
               href="/admin"
@@ -66,4 +66,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default PageHeader;
