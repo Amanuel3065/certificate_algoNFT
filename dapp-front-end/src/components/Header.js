@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 // reactstrap components
@@ -5,7 +6,7 @@ import { Button, Container } from 'reactstrap';
 
 // core components
 
-function PageHeader() {
+function LandingPageHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -27,7 +28,7 @@ function PageHeader() {
       <div
         style={{
           backgroundImage:
-            'url(' + require('assets/img/coursebg.jpg').default + ')',
+            'url(' + require('../assets/img/coursebg.jpg').default + ')',
         }}
         className="page-header"
         data-parallax={true}
@@ -37,7 +38,7 @@ function PageHeader() {
         <Container>
           <div className="motto text-center">
             <h1>Ten Academy</h1>
-            <h3>Get certified with us</h3>
+            <h3>Learn and get your signed certificate</h3>
             <br />
             <Button
               href="/admin"
@@ -66,4 +67,4 @@ function PageHeader() {
   );
 }
 
-export default PageHeader;
+export default LandingPageHeader;
