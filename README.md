@@ -16,3 +16,9 @@
    * pip3 install py-algorand-sdk
 
    * Use the following complete guide. https://developer.algorand.org/docs/
+
+### Setup react app
+   
+   * git clone https://github.com/Abel-Blue/algorand-NFTs-smartContracts.git
+   * cd algorand-NFTs-smartContracts
+   * npm start

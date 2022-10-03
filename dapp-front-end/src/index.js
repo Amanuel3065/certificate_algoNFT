@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // styles
-i// mport 'bootstrap/scss/bootstrap.scss';
+// mport 'bootstrap/scss/bootstrap.scss';
 import './assets/scss/paper-kit.scss?v=1.3.0';
 import './assets/demo/demo.css?v=1.3.0';
 // pages
