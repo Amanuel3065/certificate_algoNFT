@@ -19,7 +19,7 @@
 
 ### Setup react app
    
-   * git clone https://github.com/Abel-Blue/algorand-NFTs-smartContracts.git
+   * git clone https://github.com/Amanuel3065/algorand-NFTs-smartContracts.git
    * cd algorand-NFTs-smartContracts
    * npm start
 
